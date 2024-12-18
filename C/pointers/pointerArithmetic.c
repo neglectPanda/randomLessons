@@ -7,6 +7,11 @@ int main() {
     int *pArr[5];
     int arrSize = sizeof(arr)/sizeof(arr[0]);
 
+    //normal vars have 4 byte size
+    //since there are five elements, and each of them contains 4 bytes, sizeof(arr) = 4 x 5 = 20
+    //we are dividing it with an element's size, arr[0] = 4 bytes
+    //we will get the proper size we are looking for
+
     for(int i = 0; i < arrSize; i++) {
         pArr[i] = &arr[i];
     }
