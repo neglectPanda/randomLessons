@@ -252,7 +252,6 @@ void updateBookInformation(BOOK book[], int *bookCount)
                 printf("\n");
                 printf("Enter new title: ");
                 fgets(newTitle, sizeof(newTitle), stdin);
-                newTitle[strcspn(newTitle, "\n")] = '\0';
                 strcpy(book[id].title, newTitle);
                 printf("Successfully updated book title.\n");
                 break;
@@ -261,7 +260,6 @@ void updateBookInformation(BOOK book[], int *bookCount)
                 printf("\n");
                 printf("Enter new author: ");
                 fgets(newAuthor, sizeof(newAuthor), stdin);
-                newAuthor[strcspn(newAuthor, "\n")] = '\0';
                 strcpy(book[id].author, newAuthor);
                 printf("Successfully updated book author.\n");
                 break;
@@ -270,7 +268,6 @@ void updateBookInformation(BOOK book[], int *bookCount)
                 printf("\n");
                 printf("Enter new address: ");
                 fgets(newAddress, sizeof(newAddress), stdin);
-                newAddress[strcspn(newAddress, "\n")] = '\0';
                 strcpy(book[id].addressOfPub, newAddress);
                 printf("Successfully updated address of publisher.\n");
                 break;
@@ -362,7 +359,7 @@ void displayBookList(BOOK book[], int bookCount)
     }
 
     for(int i = 0; i < bookCount; i++) {
-        printf("[%d]\t%s\t%s\t%s\n\t%d\n\t%d\n", i+1, book[i].title, book[i].author, book[i].addressOfPub, book[i].yearOfPub, book[i].bookId);
+        printf("[%d]\t%s\t%s\t%s\t%d\n\t%d\n", i+1, book[i].title, book[i].author, book[i].addressOfPub, book[i].yearOfPub, book[i].bookId);
     }
 
     printf("\n================================================================\n");
