@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Carson Walker",
+        "height_in_m": 1.74,
+        "weight_in_kg": 60.32
+    },
+    {
+        "name" : "Wanda Wiggly",
+        "height_in_m": 1.58,
+        "weight_in_kg": 48.95
+    },
+    {
+        "name" : "Mitchell Pritchett",
+        "height_in_m": 1.64,
+        "weight_in_kg": 83.41
+    },
+    {
+        "name": "Claire Dunphy",
+        "height_in_m": 1.58,
+        "weight_in_kg": 72.23
+    },
+    {
+        "name": "Cameron Tucker",
+        "height_in_m": 1.74,
+        "weight_in_kg": 121.21
+    }, 
+    {
+        "name": "Lily Tucker-Pritchett",
+        "height_in_m": 1.52,
+        "weight_in_kg": 47.44
+    },
+    {
+        "name": "Phil Dunphy",
+        "height_in_m": 1.83,
+        "weight_in_kg": 95.78
+    },
+    {
+        "name": "Haley Dunphy",
+        "height_in_m": 1.58,
+        "weight_in_kg": 56.47
+    }, 
+    {
+        "name": "Alex Dunphy",
+        "height_in_m": 1.54,
+        "weight_in_kg": 64.12
+    },
+    {
+        "name": "Luke Dunphy",
+        "height_in_m": 1.65,
+        "weight_in_kg": 79.37
+    }
+]
